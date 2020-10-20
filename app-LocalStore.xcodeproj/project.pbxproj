@@ -27,6 +27,7 @@
 		DDCCB228253CA2E900489C4F /* ImageLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCB227253CA2E900489C4F /* ImageLocation.swift */; };
 		DDCCB232253CB27100489C4F /* DetailStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCB231253CB27100489C4F /* DetailStoreViewController.swift */; };
 		DDCCB23C253D28E000489C4F /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCB23B253D28E000489C4F /* CustomLayout.swift */; };
+		DDD88389253E592B005CC968 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDD88388253E592B005CC968 /* Localizable.strings */; };
 		DDD8C55E2539F3B400201E17 /* Extension+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8C55D2539F3B400201E17 /* Extension+UIStackView.swift */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,7 @@
 		DDCCB227253CA2E900489C4F /* ImageLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLocation.swift; sourceTree = "<group>"; };
 		DDCCB231253CB27100489C4F /* DetailStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStoreViewController.swift; sourceTree = "<group>"; };
 		DDCCB23B253D28E000489C4F /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		DDD88388253E592B005CC968 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		DDD8C55D2539F3B400201E17 /* Extension+UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIStackView.swift"; sourceTree = "<group>"; };
 		F6DC02B020EDC2E4F5C7077E /* Pods_app_LocalStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_LocalStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -192,6 +194,7 @@
 				DD886426253920D700DA833D /* Assets.xcassets */,
 				DD01910F253B635900C39D8D /* Photos.plist */,
 				DD88642B253920D700DA833D /* Info.plist */,
+				DDD88388253E592B005CC968 /* Localizable.strings */,
 			);
 			path = "app-LocalStore";
 			sourceTree = "<group>";
@@ -350,6 +353,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"es-419",
+				"pt-BR",
 			);
 			mainGroup = DD886411253920D600DA833D;
 			productRefGroup = DD88641B253920D700DA833D /* Products */;
@@ -369,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD88642A253920D700DA833D /* LaunchScreen.storyboard in Resources */,
+				DDD88389253E592B005CC968 /* Localizable.strings in Resources */,
 				DD886427253920D700DA833D /* Assets.xcassets in Resources */,
 				DD019110253B635900C39D8D /* Photos.plist in Resources */,
 			);

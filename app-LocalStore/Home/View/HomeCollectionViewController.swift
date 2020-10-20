@@ -13,9 +13,16 @@ class HomeCollectionViewController: BaseListController, UICollectionViewDelegate
     var viewModel = HomeViewModel()
     var imageLocation = ImageLocation.allPhotos()
     
-    // MARK: - Super Methods
+    // MARK: - Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let layout = CustomtLayout()
+        collectionView.collectionViewLayout = layout
+        
+        if let layout = self.collectionView.collectionViewLayout as? CustomtLayout {
+            layout.delegate = self
+        }
         
         setupCollectioView()
         viewModel.fetchListLocations()
@@ -67,9 +74,10 @@ class HomeCollectionViewController: BaseListController, UICollectionViewDelegate
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         showContentController()
     }
-    
-    func collectionView(_ collectionView: UICollectionView, sizeOfPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
+}
+
+extension HomeCollectionViewController: CustomLayoutDelegate {
+    func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
         return imageLocation[indexPath.item].image.size.height
     }
 }
-        

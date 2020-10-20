@@ -28,7 +28,6 @@ class HomeCollectionViewCell: UICollectionViewCell {
       didSet {
         if let photo = photo {
           imageView.image = photo.image
-   
         }
       }
     }
@@ -64,7 +63,7 @@ class HomeCollectionViewCell: UICollectionViewCell {
     
     var imageView: UIImageView = {
         let image = UIImageView()
-        image.contentMode = .scaleToFill
+        image.contentMode = .scaleAspectFill
         image.backgroundColor = UIColor.Theme.second
         image.layer.cornerRadius = 10
         image.layer.masksToBounds = true
