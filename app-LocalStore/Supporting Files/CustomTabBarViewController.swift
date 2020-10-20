@@ -20,11 +20,10 @@ class CustomTabBarViewController: UITabBarController {
             createNavController(viewController: UIViewController(), title: LocalizableStrings.homeTitleLocation.localized(), imageName: "map_off"),
             createNavController(viewController: UIViewController(), title: LocalizableStrings.homeTitleProfile.localized(), imageName: "profile_off"),
         ]
-    } //LocalizableStrings.formTitleEdit.localized()
+    }
     
     fileprivate func createNavController(viewController: UIViewController, title: String, imageName: String) -> UINavigationController {
         let navVC = UINavigationController(rootViewController: viewController)
-//        navVC.navigationBar.prefersLargeTitles = true
         viewController.navigationItem.title = title
         navVC.navigationBar.barTintColor = UIColor.Theme.primary
         navVC.tabBarItem.image = UIImage(named: imageName)

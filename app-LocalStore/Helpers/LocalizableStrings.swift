@@ -9,7 +9,6 @@
 import UIKit
 
 enum LocalizableStrings: String {
-
     case homeTitlePrincipal = "home.principal"
     case homeTitleLocation = "home.location"
     case homeTitleProfile = "home.profile"

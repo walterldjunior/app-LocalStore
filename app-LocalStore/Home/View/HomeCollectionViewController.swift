@@ -76,6 +76,7 @@ class HomeCollectionViewController: BaseListController, UICollectionViewDelegate
     }
 }
 
+// MARK: - CustomLayoutDelegate
 extension HomeCollectionViewController: CustomLayoutDelegate {
     func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath) -> CGFloat {
         return imageLocation[indexPath.item].image.size.height

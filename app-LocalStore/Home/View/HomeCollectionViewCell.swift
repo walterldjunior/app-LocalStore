@@ -52,7 +52,7 @@ class HomeCollectionViewCell: UICollectionViewCell {
     }
     
     func setCellShadow() {
-        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowColor = UIColor.gray.cgColor
         self.layer.shadowOffset = CGSize(width: 0, height: 1)
         self.layer.shadowOpacity = 1
         self.layer.shadowRadius = 1.0
