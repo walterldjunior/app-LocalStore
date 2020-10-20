@@ -20,6 +20,8 @@
 		DD886435253920D800DA833D /* app_LocalStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD886434253920D800DA833D /* app_LocalStoreTests.swift */; };
 		DD88645D2539264900DA833D /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88645C2539264900DA833D /* HomeCollectionViewController.swift */; };
 		DD886468253926B200DA833D /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD886467253926B200DA833D /* BaseListController.swift */; };
+		DDC9094E253F41C500D8E1CD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC9094A253F41C500D8E1CD /* Localizable.strings */; };
+		DDC90956253F433200D8E1CD /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC90955253F433200D8E1CD /* LocalizableStrings.swift */; };
 		DDCC951A25392A6D0014FDD5 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC951925392A6D0014FDD5 /* CustomTabBarViewController.swift */; };
 		DDCC952225392E470014FDD5 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC952125392E470014FDD5 /* Extension+UIColor.swift */; };
 		DDCC9530253939210014FDD5 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC952F253939210014FDD5 /* Service.swift */; };
@@ -27,7 +29,6 @@
 		DDCCB228253CA2E900489C4F /* ImageLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCB227253CA2E900489C4F /* ImageLocation.swift */; };
 		DDCCB232253CB27100489C4F /* DetailStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCB231253CB27100489C4F /* DetailStoreViewController.swift */; };
 		DDCCB23C253D28E000489C4F /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCCB23B253D28E000489C4F /* CustomLayout.swift */; };
-		DDD88389253E592B005CC968 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDD88388253E592B005CC968 /* Localizable.strings */; };
 		DDD8C55E2539F3B400201E17 /* Extension+UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD8C55D2539F3B400201E17 /* Extension+UIStackView.swift */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,9 @@
 		DD88643B253920D800DA833D /* app-LocalStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "app-LocalStoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD88645C2539264900DA833D /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
 		DD886467253926B200DA833D /* BaseListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseListController.swift; sourceTree = "<group>"; };
+		DDC9094B253F41C500D8E1CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ../../itiinvest/ItiInvest/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DDC9094C253F41C500D8E1CD /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "../../itiinvest/ItiInvest/es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DDC90955253F433200D8E1CD /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
 		DDCC951925392A6D0014FDD5 /* CustomTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarViewController.swift; sourceTree = "<group>"; };
 		DDCC952125392E470014FDD5 /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
 		DDCC952F253939210014FDD5 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
@@ -79,7 +83,6 @@
 		DDCCB227253CA2E900489C4F /* ImageLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLocation.swift; sourceTree = "<group>"; };
 		DDCCB231253CB27100489C4F /* DetailStoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStoreViewController.swift; sourceTree = "<group>"; };
 		DDCCB23B253D28E000489C4F /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
-		DDD88388253E592B005CC968 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		DDD8C55D2539F3B400201E17 /* Extension+UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIStackView.swift"; sourceTree = "<group>"; };
 		F6DC02B020EDC2E4F5C7077E /* Pods_app_LocalStoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_app_LocalStoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -194,7 +197,7 @@
 				DD886426253920D700DA833D /* Assets.xcassets */,
 				DD01910F253B635900C39D8D /* Photos.plist */,
 				DD88642B253920D700DA833D /* Info.plist */,
-				DDD88388253E592B005CC968 /* Localizable.strings */,
+				DDC9094A253F41C500D8E1CD /* Localizable.strings */,
 			);
 			path = "app-LocalStore";
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				DDCC952125392E470014FDD5 /* Extension+UIColor.swift */,
 				DD688DD325395CCF006C3D41 /* Extension+UIView.swift */,
 				DDD8C55D2539F3B400201E17 /* Extension+UIStackView.swift */,
+				DDC90955253F433200D8E1CD /* LocalizableStrings.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -373,8 +377,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC9094E253F41C500D8E1CD /* Localizable.strings in Resources */,
 				DD88642A253920D700DA833D /* LaunchScreen.storyboard in Resources */,
-				DDD88389253E592B005CC968 /* Localizable.strings in Resources */,
 				DD886427253920D700DA833D /* Assets.xcassets in Resources */,
 				DD019110253B635900C39D8D /* Photos.plist in Resources */,
 			);
@@ -511,6 +515,7 @@
 				DD3CCE182539440900E7877D /* HomeViewModel.swift in Sources */,
 				DD886468253926B200DA833D /* BaseListController.swift in Sources */,
 				DDCCB228253CA2E900489C4F /* ImageLocation.swift in Sources */,
+				DDC90956253F433200D8E1CD /* LocalizableStrings.swift in Sources */,
 				DDD8C55E2539F3B400201E17 /* Extension+UIStackView.swift in Sources */,
 				DDCCB23C253D28E000489C4F /* CustomLayout.swift in Sources */,
 				DD688DCF25395262006C3D41 /* HomeCollectionViewCell.swift in Sources */,
@@ -558,6 +563,15 @@
 				DD886429253920D700DA833D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DDC9094A253F41C500D8E1CD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC9094B253F41C500D8E1CD /* en */,
+				DDC9094C253F41C500D8E1CD /* es-419 */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

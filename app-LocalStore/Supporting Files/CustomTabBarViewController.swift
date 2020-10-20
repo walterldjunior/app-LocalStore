@@ -16,11 +16,11 @@ class CustomTabBarViewController: UITabBarController {
     
     fileprivate func setComponents() {
         viewControllers = [
-            createNavController(viewController: HomeCollectionViewController(), title: "Home", imageName: "home_off"),
-            createNavController(viewController: UIViewController(), title: "Map", imageName: "map_off"),
-            createNavController(viewController: UIViewController(), title: "Profile", imageName: "profile_off"),
+            createNavController(viewController: HomeCollectionViewController(), title: LocalizableStrings.homeTitlePrincipal.localized(), imageName: "home_off"),
+            createNavController(viewController: UIViewController(), title: LocalizableStrings.homeTitleLocation.localized(), imageName: "map_off"),
+            createNavController(viewController: UIViewController(), title: LocalizableStrings.homeTitleProfile.localized(), imageName: "profile_off"),
         ]
-    }
+    } //LocalizableStrings.formTitleEdit.localized()
     
     fileprivate func createNavController(viewController: UIViewController, title: String, imageName: String) -> UINavigationController {
         let navVC = UINavigationController(rootViewController: viewController)
