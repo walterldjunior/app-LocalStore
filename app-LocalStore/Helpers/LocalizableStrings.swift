@@ -9,9 +9,9 @@
 import UIKit
 
 enum LocalizableStrings: String {
-    case homeTitlePrincipal = "home.principal"
-    case homeTitleLocation = "home.location"
-    case homeTitleProfile = "home.profile"
+    case homeTitlePrincipal = "Home"
+    case homeTitleLocation = "Location"
+    case homeTitleProfile = "Profile"
 
     func localized() -> String { rawValue.localized() }
 }

@@ -20,7 +20,6 @@
 		DD886435253920D800DA833D /* app_LocalStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD886434253920D800DA833D /* app_LocalStoreTests.swift */; };
 		DD88645D2539264900DA833D /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD88645C2539264900DA833D /* HomeCollectionViewController.swift */; };
 		DD886468253926B200DA833D /* BaseListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD886467253926B200DA833D /* BaseListController.swift */; };
-		DDC9094E253F41C500D8E1CD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDC9094A253F41C500D8E1CD /* Localizable.strings */; };
 		DDC90956253F433200D8E1CD /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC90955253F433200D8E1CD /* LocalizableStrings.swift */; };
 		DDCC951A25392A6D0014FDD5 /* CustomTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC951925392A6D0014FDD5 /* CustomTabBarViewController.swift */; };
 		DDCC952225392E470014FDD5 /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCC952125392E470014FDD5 /* Extension+UIColor.swift */; };
@@ -377,7 +376,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDC9094E253F41C500D8E1CD /* Localizable.strings in Resources */,
 				DD88642A253920D700DA833D /* LaunchScreen.storyboard in Resources */,
 				DD886427253920D700DA833D /* Assets.xcassets in Resources */,
 				DD019110253B635900C39D8D /* Photos.plist in Resources */,
